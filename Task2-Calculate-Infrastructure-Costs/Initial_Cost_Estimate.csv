@@ -1,0 +1,22 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,8268.310000000001,99219.72,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),For web server,Amazon EC2 ,0,1202.944,14435.33,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (t3.large), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (3000 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),For application server,Amazon EC2 ,0,1878,22536.00,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (m4.large), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (3000 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),For web server,Application Load Balancer,0,250.03,3000.36,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,257.85,3094.20,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,167.96,2015.52,USD,,Data transfer out to internet (1976 GB per month)
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,125.5,1506.00,USD,,"Hosted Zones (1), Basic Checks Within AWS (300)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,1150,13800.00,USD,,S3 Standard storage (50000 GB per month)
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,2051.6,24619.20,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (3000 GB), Quantity (2), Instance type (db.m1.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),For application server,Application Load Balancer,0,1184.43,14213.16,USD,,Number of Application Load Balancers (1)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
